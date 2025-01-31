@@ -4,5 +4,5 @@ services:
   chat:
     build: 
       context: ./backend
-    stdin_open: true  # Docker en mode interactif
+    stdin_open: true  # Podman en mode interactif
     tty: true        # Allouer un pseudo-TTY 
