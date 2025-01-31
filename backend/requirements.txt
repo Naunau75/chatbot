@@ -1,4 +1,2 @@
-flask
-flask-cors
-torch
-transformers 
+mistralai
+python-dotenv 

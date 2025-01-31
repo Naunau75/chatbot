@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  chat:
+    build: 
+      context: ./backend
+    stdin_open: true  # Docker en mode interactif
+    tty: true        # Allouer un pseudo-TTY 
