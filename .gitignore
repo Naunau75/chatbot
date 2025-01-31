@@ -1,0 +1,106 @@
+# Environnements virtuels
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Éditeurs/IDE
+.vscode/
+.idea/
+*.iml
+__pycache__/
+
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environnements Jupyter
+# (décommentez si nécessaire)
+# .ipynb_checkpoints/
+# *.ipynb
+
+# Node.js (si utilisation conjointe)
+node_modules/
+npm-debug.log*
+
+# Java (si utilisation conjointe)
+*.class
+*.jar
+
+# Go (si utilisation conjointe)
+bin/
+pkg/
+
+# Ruby (si utilisation conjointe)
+*.gem
+vendor/bundle/
+
+# Maven
+target/
+
+# Gradle
+build/
+.gradle/
+
+# Elixir
+deps/
+/_build/
+
+# Rust
+/target/
+
+# Bases de données
+*.sqlite
+*.db
+*.dump
+
+# Fichiers d'environnement
+.env
+.env.local
+.secrets
+credentials.json
+
+# Docker
+docker-compose.override.yml
+
+# Vagrant
+.vagrant/
+
+# Tests
+.junit.xml
+test-reports/
+
+# Logs
+*.log
+logs/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Documentation
+_build/
+docs/_build/
+
+# Distribution
+dist/
+wheelhouse/
+*.exe
+
+# Fichiers utilisateur
+.~lock.*
